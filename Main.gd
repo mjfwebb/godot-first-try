@@ -14,7 +14,7 @@ func new_game():
 	score = 0
 	$Player.start($StartPosition.position)
 	$StartTimer.start()
-
+	$MobTimer.start()
 
 func _on_score_timer_timeout():
 	score += 1
